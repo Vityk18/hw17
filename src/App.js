@@ -73,8 +73,6 @@ function App() {
   function changeWomanButton() {
     setWomenButton(!womenButton);
   }
-  console.log(`men --- ` + manButton);
-  console.log(`women --- ` + womenButton);
 
   const input = Input();
   const data = Data(input.value, manButton, womenButton);
