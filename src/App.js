@@ -46,7 +46,6 @@ function Data(input, manButton, womenButton) {
 
   if (!manButton) {
     arr = contacts.filter((e) => {
-      console.log(e.gender == "male");
       return e.gender !== "male";
     });
   }
@@ -56,7 +55,6 @@ function Data(input, manButton, womenButton) {
       return e.gender !== "female";
     });
   }
-  console.log(arr);
   arr.map((e) => result.push(e));
 
   return result;
